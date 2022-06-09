@@ -1,0 +1,128 @@
+body {
+    margin: auto;
+    padding: 0;
+}
+
+header {
+    background-color: darkgray;
+}
+
+#body {
+    background-color: green;
+}
+
+.nav .cf {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: fixed;
+    float: right;
+    top: 0;
+    list-style-type: none;
+    background-color: darkgray;
+    padding: 1% 81.5% 1px 20px;
+    margin: 0px 0px 5% 0px;
+    font-size: large;
+    font-family: 'Lucida Sans';
+}
+
+#openup {
+    background-color: darkgray;
+    padding: 10px 0% 10px 20px;
+    font-size: large;
+    font-family: 'Lucida Sans';
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+}
+
+li a:hover {
+    background-color: darkgray;
+    padding: 5px;
+}
+
+ul.active {
+    background-color: chocolate;
+}
+
+.lead.hide-on-small {
+    background-image: url(image/guitar.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    line-height: 120%;
+    max-width: 100%;
+    font-size: 23px;
+    padding: 5% 15% 30% 15%;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    padding: 0px 0px 2px 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    padding: 0px 0px 2px 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    color: white;
+}
+
+.section-main {
+    background-color: black;
+}
+
+#music {
+    text-align: left;
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px 16px 10%;
+    font-size: 15px;
+    color: black;
+}
+
+.fas {
+    color: white;
+    align-content: center;
+}
+
+.section-head {
+    text-align: center;
+    font-size: 30px;
+}
+
+h3 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: white;
+}
+
+.lead {
+    text-align: center;
+    padding: 0px 20% 10px 20%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: white;
+}
+
+
+/* .bg-light {
+    display: flex;
+    flex-direction: row;
+} */

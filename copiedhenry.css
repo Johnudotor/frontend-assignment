@@ -1,0 +1,13 @@
+body {
+    margin: 50px;
+}
+
+.pull-left {
+    background-color: darksalmon;
+    margin: 50px;
+    padding: 50px;
+    border-style: none;
+    font-size: 500%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
